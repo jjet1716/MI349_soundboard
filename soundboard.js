@@ -5,6 +5,7 @@ const soundboard = {
 }
 
 function playsound(sound) {
+    console.log('playing');
     audioObj = new Audio(soundboard[sound]);
     audioObj.play();
 }
