@@ -5,7 +5,8 @@ const soundboard = {
 }
 
 function playsound(sound) {
-    console.log('playing');
-    audioObj = new Audio(soundboard[sound]);
+    console.log('playing', sound);
+
+    audioObj = new Audio("https://www.wavsource.com/snds_2020-10-01_3728627494378403/sfx/phone_ring2.wav");
     audioObj.play();
 }
