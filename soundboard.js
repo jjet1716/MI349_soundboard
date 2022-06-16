@@ -1,5 +1,4 @@
 var playsound = function(e) {
-    console.log('playing sound');
     let audioEle = e.target.querySelector('audio');
     audioEle.play();
 }
